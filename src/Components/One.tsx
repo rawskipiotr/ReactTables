@@ -9,7 +9,6 @@ import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
-
 import users from '../Data/users.json'
 import hobbies from  '../Data/hobbies.json'
 
@@ -233,8 +232,6 @@ function One () {
             }
         },
     ];
-
-
     return <div className="App">
         <Button onClick={handleAdd}>
             ADD NEW USER
@@ -279,7 +276,6 @@ function One () {
                         color="primary" autoFocus>
                     Cancel
                 </Button>
-
             </DialogActions>
         </Dialog>
         </div>
