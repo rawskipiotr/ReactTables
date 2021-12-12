@@ -70,11 +70,6 @@ function Add(){
         }else{
             alert("FILL ALL REQUIRED FIELDS")
         }
-
-
-        // setUsersLS([
-        //     ...usersLS, userAdd
-        // ]);
     }
 
     //HANDLE SELECTA HOBBIES
