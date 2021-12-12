@@ -68,7 +68,7 @@ function Edit(){
 
     function handleGenderSelectChange (e: SelectChangeEvent)  {
         setUpdatedUser({...updatedUser, gender: e.target.value});
-    };
+    }
 
         //RESETOWANIE FORMULARZA
         function reset(e: React.FormEvent<HTMLElement>) {
@@ -82,7 +82,6 @@ function Edit(){
         setSelect(typeof value === 'string' ? value.split(',') : value,);
         setUpdatedUser({ ...updatedUser, hobbies: typeof value === 'string' ? value.split(',') : value, });
     };
-
     return <div>
         <div>
             <h2>Edit User</h2>
